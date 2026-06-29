@@ -1,0 +1,9 @@
+ogolnie to problem jest taki ze driver_id jest zle zrobione, jest to 3 literowy kod pierwszych liter nazwiska a problem jest wtedy kiedy dwoch kierowcow ma to samo nazwisko (np Jos i Max Verstappen)uzupelnij baze o reszte wyscigow
+
+zamien przy wynikach driver_id na code w js i php
+
+naglowki w html kierowcy, zespoly i tory
+wez pod uwage ze jak bedziesz robil baze danych od nowa to trzeba bedzie ja rozbudowac
+
+napraw zespoly w db
+napraw index

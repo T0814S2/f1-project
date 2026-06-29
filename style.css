@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+header {
+    padding: 10px;
+    display: flex;
+}
+header #header_logo {
+    width: 20%;
+}
+header #header_main {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+header #drivers {
+    width: 33%;
+    text-align: center;
+    font-size: 200%;
+    margin: auto;
+}
+header #teams {
+    width: 33%;
+    text-align: center;
+    font-size: 200%;
+    margin: auto;
+}
+header #circuites {
+    width: 33%;
+    text-align: center;
+    font-size: 200%;
+}
+header #search_bar {
+    width: 20%;
+    text-align: right;
+}
+header #logo {
+    width: 100px;
+}
+
+main {
+    display: flex;
+}
+
+#left {
+    width: 20%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#middle {
+    width: 60%;
+    padding: 20px;
+}
+
+#right {
+    width: 20%;
+}
+footer {
+    margin: 10px;
+}
+.h2_season {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+table {
+    color: white;
+    background-image: linear-gradient(to right, rgb(25, 25, 25), rgb(10, 10, 10));
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid;
+    width: 90%;
+}
+
+tr:hover {
+    background-color: rgb(45, 0, 0);
+    color: wheat;
+}
+
+tbody tr:nth-of-type(even):hover {
+    background-color: rgb(45, 0, 0);
+    color: wheat;
+}
+
+tbody tr {
+    padding: 10px 2px 2px 10px;
+    background-color: rgb(35, 35, 35);
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgb(80, 80, 80);
+}
+a {
+    text-decoration: none;
+    color: red;
+}

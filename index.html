@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuła 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <section id="header_logo">
+            <a href="index.html"><img src="logo.png" alt="logo" id="logo"></a>
+        </section>
+        <section id="header_main">
+            <section id="drivers">
+                <a href="drivers.html">Kierowcy</a>
+            </section>
+            <section id="teams">
+                <a href="teams.html">Zespoly</a>
+            </section>
+            <section id="circuites">
+                <a href="circuites.html">Tory</a>
+            </section>
+        </section>
+        <section id="search_bar">
+            <input type="text" id="search-input" class="search-container" placeholder="Szukaj..." autocomplete="off">
+            <button id="search-button">Szukaj</button>
+        </section>
+    </header>
+    
+    <main>
+        <section id="left">
+            <section id="selector">
+                <ul id="seasons-menu">
+
+                </ul>
+            </section>
+        </section>
+        <section id="middle">
+            <section id="main-race-table">
+                <h2 class="h2_season">Sezon 2026</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Circuit</th>
+                            <th>Type</th>
+                            <th>Winner</th>
+                            <th>Second Place</th>
+                            <th>Third Place</th>
+                            <th>Fastest Lap</th>
+                        </tr>
+                    </thead>
+                    <tbody id="output"></tbody>
+                </table>
+            </section>
+            <section id="subpage-container" class="hidden">
+                
+            </section>
+            <section id="search-results-main" class="hidden">
+
+            </section>
+        </section>
+        <section id="right">
+            <section id="wdc">
+                <h4>WDC</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Driver</th>
+                            <th>Points</th>
+                            <th>Wins</th>
+                        </tr>
+                    </thead>
+                    <tbody id="wdc-output"></tbody>
+                </table>
+            </section>
+            <section id="wcc">
+                <h4>WCC</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Driver</th>
+                            <th>Points</th>
+                            <th>Wins</th>
+                        </tr>
+                    </thead>
+                    <tbody id="wcc-output"></tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Autor: Tobiasz Dub</p>
+    </footer>
+
+    <script src="s2026.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
